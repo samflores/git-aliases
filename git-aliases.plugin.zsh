@@ -12,6 +12,9 @@
 #
 #  0. You just DO WHAT THE FUCK YOU WANT TO.
 
+# is Git installed?
+[ -z "$(command -v git)" ] && return 0
+
 ###########
 # General #
 ###########
